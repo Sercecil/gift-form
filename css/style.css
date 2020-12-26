@@ -462,6 +462,11 @@ body._lock {
 }
 
 .atvs__quantity-button {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-size: 24px;
   font-weight: 900;
   display: -webkit-box;
@@ -480,6 +485,11 @@ body._lock {
 }
 
 .atvs__quantity-input input {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   height: 100%;
   text-align: center;
   width: 35px;
@@ -1150,6 +1160,10 @@ input::-webkit-inner-spin-button {
   padding: 30px;
   margin-bottom: 20px;
   background-color: #fff;
+}
+
+.payment-gift {
+  padding-bottom: 90px;
 }
 
 .payment-gift .payment__text-list {
